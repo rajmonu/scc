@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+{% block body %}
+<div class="container">
+    <table class="table table-striped text-center">
+        <thead>
+            <tr>
+                <th scope="col">SNo</th>
+                <th scope="col">Course</th>
+                <th scope="col">Details</th>
+                <th scope="col">Teacher</th>
+                <th scope="col">Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>Java</td>
+                <td><a href="/courseDetails">details</a></td>
+                <td>Naresh</td> 
+                <td>ongoing</td>          
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Python</td>
+                <td><a href="/courseDetails">details</a></td>
+                <td>Steve</td> 
+                <td>coming soon</td>          
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+
+{% endblock body %}
